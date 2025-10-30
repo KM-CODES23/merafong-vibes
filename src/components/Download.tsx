@@ -40,12 +40,15 @@ const Download = () => {
                   variant="outline"
                   size="lg"
                   className="w-full justify-start h-16 text-left hover:scale-105 transition-smooth hover:glow"
+                  asChild
                 >
-                  <Apple className="h-8 w-8 mr-4" />
-                  <div>
-                    <div className="text-xs text-muted-foreground">Download on the</div>
-                    <div className="text-lg font-semibold">App Store</div>
-                  </div>
+                  <a href="https://merafong-streams.base44.app" target="_blank" rel="noopener noreferrer">
+                    <Apple className="h-8 w-8 mr-4" />
+                    <div>
+                      <div className="text-xs text-muted-foreground">Download on the</div>
+                      <div className="text-lg font-semibold">App Store</div>
+                    </div>
+                  </a>
                 </Button>
 
                 {/* Google Play Button */}
@@ -53,12 +56,15 @@ const Download = () => {
                   variant="outline"
                   size="lg"
                   className="w-full justify-start h-16 text-left hover:scale-105 transition-smooth hover:glow"
+                  asChild
                 >
-                  <PlayCircle className="h-8 w-8 mr-4" />
-                  <div>
-                    <div className="text-xs text-muted-foreground">Get it on</div>
-                    <div className="text-lg font-semibold">Google Play</div>
-                  </div>
+                  <a href="https://merafong-streams.base44.app" target="_blank" rel="noopener noreferrer">
+                    <PlayCircle className="h-8 w-8 mr-4" />
+                    <div>
+                      <div className="text-xs text-muted-foreground">Get it on</div>
+                      <div className="text-lg font-semibold">Google Play</div>
+                    </div>
+                  </a>
                 </Button>
               </div>
 

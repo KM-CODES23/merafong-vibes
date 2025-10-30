@@ -64,13 +64,17 @@ const Hero = () => {
             transition={{ delay: 0.5 }}
             className="flex flex-col sm:flex-row gap-4 justify-center items-center"
           >
-            <Button variant="hero" size="lg" className="min-w-[200px]">
-              <Play className="h-5 w-5" />
-              Listen Now
+            <Button variant="hero" size="lg" className="min-w-[200px]" asChild>
+              <a href="https://merafong-streams.base44.app" target="_blank" rel="noopener noreferrer">
+                <Play className="h-5 w-5" />
+                Listen Now
+              </a>
             </Button>
-            <Button variant="outline" size="lg" className="min-w-[200px]">
-              <Download className="h-5 w-5" />
-              Download App
+            <Button variant="outline" size="lg" className="min-w-[200px]" asChild>
+              <a href="#download">
+                <Download className="h-5 w-5" />
+                Download App
+              </a>
             </Button>
           </motion.div>
 

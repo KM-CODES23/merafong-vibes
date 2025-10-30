@@ -38,7 +38,7 @@ const LiveEmbed = () => {
             {/* Iframe Container */}
             <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
               <iframe
-                src="https://open.spotify.com/embed/playlist/37i9dQZF1DXcBWIGoYBM5M?utm_source=generator&theme=0"
+                src="https://merafong-streams.base44.app"
                 className="absolute top-0 left-0 w-full h-full"
                 style={{ minHeight: "600px" }}
                 frameBorder="0"

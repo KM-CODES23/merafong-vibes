@@ -55,8 +55,12 @@ const Navbar = () => {
 
           {/* Desktop CTAs */}
           <div className="hidden md:flex items-center gap-3">
-            <Button variant="ghost">Sign In</Button>
-            <Button variant="default">Get Started</Button>
+            <Button variant="ghost" asChild>
+              <a href="https://merafong-streams.base44.app" target="_blank" rel="noopener noreferrer">Sign In</a>
+            </Button>
+            <Button variant="default" asChild>
+              <a href="https://merafong-streams.base44.app" target="_blank" rel="noopener noreferrer">Get Started</a>
+            </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -86,8 +90,12 @@ const Navbar = () => {
               </a>
             ))}
             <div className="mt-4 flex flex-col gap-2">
-              <Button variant="ghost" className="w-full">Sign In</Button>
-              <Button variant="default" className="w-full">Get Started</Button>
+              <Button variant="ghost" className="w-full" asChild>
+                <a href="https://merafong-streams.base44.app" target="_blank" rel="noopener noreferrer">Sign In</a>
+              </Button>
+              <Button variant="default" className="w-full" asChild>
+                <a href="https://merafong-streams.base44.app" target="_blank" rel="noopener noreferrer">Get Started</a>
+              </Button>
             </div>
           </motion.div>
         )}
